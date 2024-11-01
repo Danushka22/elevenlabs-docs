@@ -1,35 +1,40 @@
 ---
-title: "ElevenLabs Release Notes"
-description: "Model and API updates"
----
-###
-This page contains the latest updates and changes to ElevenLabs' models and APIs.
-
+title: "Product Updates"
+description: "New updates and improvements"
+mode: "wide"
 ---
 
-## October 20th, 2024
+<Update label="October 20, 2024">
 
-### API Updates
+## API Updates
+
 - **Normalize Text with the API**: Added the option normalize the input text in the TTS API. The new parameter is called `apply_text_normalization` and works on all non-turbo models.
 
-### Feature Additions
+## Feature Additions
+
 - **Voice Design**: The Voice Design feature is now in beta!
 
-## October 13th, 2024
+</Update>
 
-### Model Updates
+<Update label="October 13, 2024">
+
+## Model Updates
 
 - **Stability Improvements**: Significant improvements in the audio stability of all models, but especially noticeable on `turbo_v2` and `turbo_v2.5`, when using:
-  * Websockets
-  * Projects
-  * Reader app
-  * TTS with request stitching
-  * ConvAI
+  - Websockets
+  - Projects
+  - Reader app
+  - TTS with request stitching
+  - ConvAI
 - **Latency Improvements**: Time to first byte latency improvements by around 20-30ms for all models.
 
-### API Updates
+## API Updates
+
 - **Remove Background Noise Voice Samples**: Added the ability to remove background noise from voice samples using our audio isolation model to improve quality for IVCs and PVCs at no additional cost.
 - **Remove Background Noise STS Input**: Added the ability to remove background noise from STS audio input using our audio isolation model to improve quality at no additional cost.
 
 ### Feature Additions
+
 - **Conversational AI Beta**: The conversational AI feature is now in beta!
+
+</Update>
